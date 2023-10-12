@@ -1,0 +1,25 @@
+// app.get("/user", async (req, res) => {
+//   try {
+//     const data = await axios.get(
+//       "https://jsonplaceholder.typicode.com/posts/1"
+//     );
+//     res.status(200).json({//Sende Daten an den User mit Status und einem Json Objekt
+//       code: 200,
+//       answer: data.data,
+//     });
+//   } catch (error) {//Fehlerbehandlung
+//     res.status(404).json({
+//       code: 200,
+//       answer: "auth token is missing",
+//     });
+//   }
+// });
+
+// app.post("/user", (req, res) => {
+
+//   res.status(200).json({
+//     code: 200,
+//     answer: "User wurde angelegt",
+//   });
+// });
+
